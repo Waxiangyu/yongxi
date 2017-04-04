@@ -1,0 +1,182 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+div.container {
+  margin-top: 100px;
+}
+div.container #yh {
+  height: 200px;
+}
+div.container #yh .particles-js {
+  position: relative;
+}
+div.container #yh .yh-1 {
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  color: #50565D;
+  width: 500px;
+}
+div.container #yh .yh-1 h1 {
+  text-transform: uppercase;
+  font-size: 95px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  width: 500px;
+}
+div.container #yh .yh-1 p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-size: 20px ;
+  font-weight: bold;
+  width: 500px;
+}
+div.container .line {
+  width: 100%;
+  background: #c9c9c9;
+  height: 1px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  position: relative;
+}
+div.container .line span {
+  width: 100px;
+  border-top: 2px solid #000 ;
+  position: absolute;
+  left: 20px;
+  top: -2px;
+}
+div.container .center {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.container .bigtitle {
+  position: relative;
+  margin: 20px auto;
+  height: 50px;
+  color: #50565D;
+}
+div.container .bigtitle h1 {
+  font-size: 20px;
+}
+div.container .bigtitle i {
+  font-size: 15px;
+}
+div.container .research .block h5 {
+  height: 32px;
+  line-height: 32px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  text-indent: 15px;
+}
+div.container .research .block h5 a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+div.container .research .block h5 a:hover {
+  text-decoration: none;
+}
+div.container .research .block ul li {
+  border-bottom: 1px solid #c9c9c9;
+  height: 32px;
+  line-height: 32px;
+  font-size: 10px;
+}
+div.container .picture {
+  margin-top: 20px;
+}
+div.container .picture .picture-right {
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+div.container .picture .picture-right img {
+  width: 280px ;
+  height: 180px;
+}
+div.container .picture .picture-right span {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 5px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  width: 120px;
+  text-align: center;
+}
+div.container .picture .picture-right:hover span {
+  display: block;
+}
+div.container div.fenye {
+  width: 500px;
+  height: 30px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+div.container div.fenye a {
+  background-color: #F8F8F8 ;
+  border: 1px solid #c9c9c9;
+  display: inline-block;
+  width: 30px ;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+div.container div.fenye .active {
+  background-color: black;
+  color: white;
+}
+div.container div.fenye a:hover {
+  background-color: black;
+  color: white;
+}
+#yh-footer {
+  margin-left: 190px;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}

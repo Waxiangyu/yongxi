@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.contact {
+  overflow: hidden;
+  position: relative;
+  height: 660px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact .wraper {
+  width: 630px;
+  height: 89%;
+  background: #fff;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  z-index: 1;
+}
+.contact .wraper .tit {
+  width: 100%;
+  padding: 10px 4%;
+  border-bottom: 1px dotted #333;
+  padding-bottom: 15px;
+  position: relative;
+  background: #000;
+}
+.contact .wraper .tit h1 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: normal;
+}
+.contact .wraper .tit p {
+  font-size: 24px;
+  color: #fff;
+}
+.contact .wraper .tit h2 {
+  font-size: 28px;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  margin-top: -17px;
+  color: #fff;
+}
+.contact .wraper .tit h2 span {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url(../img/admin/24tel.png) no-repeat;
+  left: -75px;
+  top: 50%;
+  margin-top: -30px;
+}
+.contact .wraper .addr .fangfa {
+  width: 92%;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #333;
+  height: 80px;
+}
+.contact .wraper .addr .fangfa h2 {
+  font-size: 14px;
+  color: #acacac;
+  font-weight: normal;
+}
+.contact .wraper .addr .fangfa p {
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+}
+.contact .wraper .addr .gongsi {
+  width: 100%;
+  margin-top: 20px;
+}
+.contact .wraper .addr .gongsi li {
+  width: 92%;
+  padding: 0 4%;
+  margin-bottom: 15px;
+  height: 60px;
+  list-style: none;
+}
+.contact .wraper .addr .gongsi li h1 {
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+}
+.contact .wraper .addr .gongsi li i {
+  font-size: 14px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: bold;
+}

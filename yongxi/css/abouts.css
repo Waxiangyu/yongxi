@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.Banner {
+  width: 100%;
+  height: 2650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+.Banner .bannervideo {
+  width: 100%;
+  height: 613px;
+  position: relative;
+}
+.Banner .bannervideo video {
+  width: 100%;
+}
+.Banner .bannervideo .main_title {
+  background: url(../img/about/main_title.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 313px;
+  left: 50%;
+  margin-left: -188px;
+  margin-top: -135px;
+  position: absolute;
+  top: 50%;
+  width: 377px;
+}
+.Banner .bannervideo:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.Banner .aboutcenter {
+  background: #fff;
+  min-height: 400px;
+  position: relative;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  font-family: "Microsoft YaHei", Arial, Verdana, Helvetica, sans-serif;
+}
+.Banner .aboutcenter h1 {
+  margin: 30px 30px;
+  font-size: 18px;
+}
+.Banner .aboutcenter h1 .tlt {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin: 0 30px;
+  font-size: 16px;
+  color: #666;
+}
+.Banner .aboutcenter h1 span {
+  height: 10px;
+  width: 60px;
+  background: #000;
+  display: block;
+  position: absolute;
+}
+.Banner .aboutcenter .wap1 {
+  margin: 30px 2% 0 0;
+  width: 100%;
+  height: 347px;
+  position: relative;
+}
+.Banner .aboutcenter .wap1 .f1 {
+  float: left;
+  width: 524px;
+  margin-left: 8px;
+}
+.Banner .aboutcenter .wap1 .f1 h1 {
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  color: #666;
+}
+.Banner .aboutcenter .wap1 .f1 p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #666;
+  margin-left: 15px;
+}
+.Banner .aboutcenter .wap1 .f1-1 {
+  float: right;
+  width: 50%;
+  margin-right: 60px;
+  height: 344px;
+}
+.Banner .aboutcenter .wap1 .f2 {
+  float: left;
+  width: 26%;
+  height: 350px;
+  margin-left: 26px;
+}
+.Banner .aboutcenter .wap1 .f2 .workplace {
+  width: 100%;
+  text-align: left;
+}
+.Banner .aboutcenter .wap1 .f2 p {
+  font-size: 14px;
+  line-height: 24px;
+  width: 226px;
+  color: #666;
+}
+.Banner .aboutcenter .wap1 .f2-1 {
+  position: relative;
+  width: 70%;
+  float: right;
+}
+.Banner .aboutcenter .wap1 .f2-1 div {
+  opacity: 0;
+  transform: scale(0.2);
+  transition: all 1s ease, opacity 1.5s ease;
+}
+.Banner .aboutcenter .wap1 .f2-1 .work1 {
+  position: absolute;
+  right: 492px;
+}
+.Banner .aboutcenter .wap1 .f2-1 .work2 {
+  position: absolute;
+  right: 0;
+}
+.Banner .aboutcenter .wap1 .f2-1 .work3 {
+  position: absolute;
+  top: 138px;
+  right: 233px;
+}
+.Banner .aboutcenter .wap1 .f2-1 .work4 {
+  position: absolute;
+  top: 138px;
+  right: 0;
+}
+.Banner .aboutcenter .wap1 .f3 {
+  position: relative;
+  width: 70%;
+  float: left;
+}
+.Banner .aboutcenter .wap1 .f3 div {
+  opacity: 0;
+  transform: scale(0.2);
+  transition: all 1s ease, opacity 1.5s ease;
+}
+.Banner .aboutcenter .wap1 .f3 .day1 {
+  position: absolute;
+}
+.Banner .aboutcenter .wap1 .f3 .day2 {
+  position: absolute;
+  top: 168px;
+}
+.Banner .aboutcenter .wap1 .f3 .day3 {
+  position: absolute;
+  left: 281px;
+}
+.Banner .aboutcenter .wap1 .f3 .day4 {
+  position: absolute;
+  left: 541px;
+}
+.Banner .aboutcenter .wap1 .f3-1 {
+  width: 30%;
+  height: 340px;
+  float: right;
+}
+.Banner .aboutcenter .wap1 .f3-1 .daytop {
+  width: 100%;
+  text-align: right;
+}
+.Banner .aboutcenter .wap1 .f3-1 p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  width: 190px;
+  float: right;
+  color: #666;
+}
+.Banner .aboutcenter .wap1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.Banner .journey {
+  height: 350px;
+  width: 100%;
+  background: #030400;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.Banner .journey .flower {
+  top: -120.9px;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+.Banner .journey .journeys {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -198px;
+  margin-top: -65px;
+}
+.Banner .moment {
+  background: #fff;
+  min-height: 400px;
+  position: relative;
+  padding-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  margin-bottom: 45px;
+  width: 100%;
+}
+.Banner .moment .moments {
+  margin: 20px 2% 0 0;
+  width: 96%;
+  position: relative;
+}
+.Banner .moment .moments div {
+  opacity: 0;
+  transform: scale(0.2);
+  transition: all 1s ease, opacity 1.5s ease;
+}
+.Banner .moment .moments .moment-1 {
+  position: absolute;
+}
+.Banner .moment .moments .moment-2 {
+  position: absolute;
+  left: 487px;
+}
+.Banner .moment .moments .moment-3 {
+  position: absolute;
+  left: 747px;
+}
+.Banner .moment .moments .moment-4 {
+  position: absolute;
+  top: 182px;
+  left: 487px;
+}
+.Banner .moment .mom-text {
+  position: absolute;
+  top: 301px;
+}

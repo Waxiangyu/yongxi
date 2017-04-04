@@ -1,0 +1,64 @@
+footer {
+  min-height: 190px;
+  background-color: #363636;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  color: white;
+}
+footer div.footer_top {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+footer div.footer_top ul.companyInfo {
+  width: 76%;
+  float: left;
+  padding: 20px 0;
+}
+footer div.footer_top ul.companyInfo li {
+  float: left;
+  width: 24%;
+  margin-right: 1%;
+}
+footer div.footer_top ul.companyInfo li h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+footer div.footer_top ul.companyInfo li span {
+  font-size: 10px;
+}
+footer div.footer_top ul.companyInfo li p {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 18px;
+}
+footer div.footer_top ul.companyInfo li p:nth-of-type(1) {
+  margin-top: 10px;
+}
+footer div.footer_top div.companyErweima {
+  width: 24%;
+  float: right;
+}
+footer div.footer_bottom {
+  padding: 10px 0;
+}
+footer div.footer_bottom p {
+  font-weight: 400;
+  color: #b9b9ba;
+  font-style: italic;
+}
+footer div.footer_bottom p a:nth-of-type(2) {
+  color: #50565d;
+}
+footer div.footer_bottom p a {
+  color: #b9b9ba;
+}
+footer div.weblink span {
+  color: #50565d;
+}
+footer div.weblink a {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px;
+  margin-bottom: 5px;
+}
